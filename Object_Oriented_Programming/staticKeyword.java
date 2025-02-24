@@ -1,4 +1,8 @@
 package Object_Oriented_Programming;
+// Definiton - the static keyword is used to indicate that a member 
+// (variable, method, or block) belongs to the class 
+// rather than to any specific instance of the class.
+
 class student1 {
     static String schoolName;
     int rollNo;
@@ -20,7 +24,7 @@ public class staticKeyword {
         st1.print(); // SchoolName - JSPM Narhe rollNo - 20
         st2.print(); // SchoolName - JSPM Narhe rollNo - 20
 
-        // Its because static member variable is sshared by objects 
+        // Its because static member variable is shared by objects 
         // so after making any modifications it would be modified for 
         // all the objects of class
 
