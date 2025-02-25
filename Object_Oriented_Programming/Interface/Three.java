@@ -1,6 +1,10 @@
 package Object_Oriented_Programming.Interface;
 
-// Functional interace is the interface having only one method
+// A Functional Interface in Java is an interface 
+// that contains exactly one abstract method. It can
+// have multiple default or static methods, but only
+// one abstract method.
+
 @FunctionalInterface
 interface A3 {
     void show();
