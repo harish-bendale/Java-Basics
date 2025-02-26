@@ -1,6 +1,11 @@
 # Java
-1) <h3>Abstraction</h3> <p>simplifies complexity by hiding unnecessary implementation details and exposing only essential features or behaviors through a well-defined interface. It allows users to interact with a system at a higher level of logic without needing to understand its internal workings.</p>
+1) <h3>Abstraction</h3> <p>Abstraction simplifies complexity by hiding unnecessary implementation details and exposing only essential features or behaviors through a well-defined interface. It allows users to interact with a system at a higher level of logic without needing to understand its internal workings.</p>
 
+2) <h3>Encapsulation</h3> <p>Encapsulation is an OOP principle that bundles data (attributes) and methods (behaviors) into a single unit (e.g., a class) while restricting direct access to internal data using access modifiers (e.g., private, protected). It enforces controlled interaction with the object’s state, typically through public methods (getters/setters), ensuring data integrity and reducing unintended side effects.</p>
+
+3) <h3>Inheritance</h3> <p>Inheritance is an OOP principle that enables a class (child/subclass) to acquire properties and behaviors (fields/methods) from another class (parent/superclass), promoting code reuse and hierarchical modeling. It establishes an "is-a" relationship (e.g., a Car is a Vehicle), allowing subclasses to extend or override parent functionality while maintaining a logical hierarchy.</p>
+
+4) <h3>Polymorphism</h3> <p>Polymorphism is an OOP principle that allows objects of different classes to be treated as instances of a common superclass or interface, enabling a single interface to represent diverse underlying forms. It simplifies code by letting you write generalized logic that works with multiple types, while still executing type-specific behavior at runtime.</p>
 
 1) Use == for primitive types (e.g., int, char, boolean) because they compare values directly.
 2) Use .equals() for objects (e.g., String, Integer) to compare the actual content.
