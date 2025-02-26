@@ -24,3 +24,15 @@ public class LambdaExpression {
         obj2.sum(4,5);
     }
 }
+
+
+// Arrays.sort(arr, new Comparator<int[]>() {
+//     @Override
+//     public int compare(int[] a, int[] b) {
+//         return Integer.compare(a[0], b[0]);
+//     }
+// });
+
+// Above function can be converted into lambda expression as of follows.
+
+// Arrays.sort(arr, (a, b) -> Integer.compare(a[0], b[0]));

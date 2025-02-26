@@ -1,4 +1,6 @@
 # Java
+1) <h3>Abstraction</h3> <p>simplifies complexity by hiding unnecessary implementation details and exposing only essential features or behaviors through a well-defined interface. It allows users to interact with a system at a higher level of logic without needing to understand its internal workings.</p>
+
 
 1) Use == for primitive types (e.g., int, char, boolean) because they compare values directly.
 2) Use .equals() for objects (e.g., String, Integer) to compare the actual content.

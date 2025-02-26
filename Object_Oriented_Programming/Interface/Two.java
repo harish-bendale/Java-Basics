@@ -4,7 +4,7 @@ package Object_Oriented_Programming.Interface;
 
 // class -> class extends
 // class -> Interface implements
-// Interface -> Interface implements
+// Interface -> Interface extends
 interface A2 {
 
     void show();
