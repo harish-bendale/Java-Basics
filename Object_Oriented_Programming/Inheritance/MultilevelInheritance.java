@@ -1,3 +1,5 @@
+// A "chain" of inheritance where a child class 
+// becomes a parent for another class.
 package Object_Oriented_Programming.Inheritance;
 class Animals {
     void category() {

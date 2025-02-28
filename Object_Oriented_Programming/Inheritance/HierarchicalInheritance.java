@@ -1,3 +1,4 @@
+// Multiple child classes inherit from a single parent class.
 package Object_Oriented_Programming.Inheritance;
 class Polygon {
     int length, breadth;

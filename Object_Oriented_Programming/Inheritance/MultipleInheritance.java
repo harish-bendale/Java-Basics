@@ -1,3 +1,5 @@
+// A class inherits from two or more parent classes.
+
 package Object_Oriented_Programming.Inheritance;
 interface Shape {
     int area();

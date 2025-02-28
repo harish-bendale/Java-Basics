@@ -1,3 +1,6 @@
+// A class inherits properties and behavior from one 
+// parent class only.
+
 package Object_Oriented_Programming.Inheritance;
 class Polygon2 {
     int length;

@@ -1,3 +1,4 @@
+// A combination of two or more inheritance types (e.g., multiple + hierarchical).
 package Object_Oriented_Programming.Inheritance;
 
 interface Shape {
