@@ -10,6 +10,13 @@
 <h3>Acess Modifiers</h3>
 <h3>1) Classes</h3>
 <p>public , default</p>
+<p>
+
+ 1. public -> Accessible everywhere.
+
+ 2. Default -> The class is accessible only within the same package.
+<p>
+
 
 <h3>2) Constructors, Methods, Variables</h3>
 <p>public, default, protected, private</p>
