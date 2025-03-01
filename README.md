@@ -7,6 +7,18 @@
 
 4) <h3>Polymorphism</h3> <p>Polymorphism is an OOP principle that allows objects of different classes to be treated as instances of a common superclass or interface, enabling a single interface to represent diverse underlying forms. It simplifies code by letting you write generalized logic that works with multiple types, while still executing type-specific behavior at runtime.</p>
 
+<h3>Acess Modifiers</h3>
+<h3> 1) Classes </h3> 
+<p>public , default</p>
+<h3> 2) Constructors, Methods, Variables </h3> 
+<p>public, default, protected, private</p>
+<break>
+<p>public	Accessible everywhere.</p>
+<p>protected	Same package + subclasses (even in other packages).</p>
+<p>default	Only within the same package.</p>
+<p>private	Only within the same class.</p>
+
+
 1) Use == for primitive types (e.g., int, char, boolean) because they compare values directly.
 2) Use .equals() for objects (e.g., String, Integer) to compare the actual content.
 3) == on objects checks if they point to the same memory location, not the content.
