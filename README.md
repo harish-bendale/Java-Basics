@@ -7,6 +7,46 @@
 
 4) <h3>Polymorphism</h3> <p>Polymorphism is an OOP principle that allows objects of different classes to be treated as instances of a common superclass or interface, enabling a single interface to represent diverse underlying forms. It simplifies code by letting you write generalized logic that works with multiple types, while still executing type-specific behavior at runtime.</p>
 
+<h2>1. Class Access Modifiers</h2>
+    <table>
+        <tr>
+            <th>Modifier</th>
+            <th>Accessibility</th>
+        </tr>
+        <tr>
+            <td><code>public</code></td>
+            <td>Accessible <strong>everywhere</strong></td>
+        </tr>
+        <tr>
+            <td><code>default</code></td>
+            <td>Accessible only within the same package (no explicit keyword)</td>
+        </tr>
+    </table>
+
+    <h2>2. Constructor/Method/Field Access Modifiers</h2>
+    <table>
+        <tr>
+            <th>Modifier</th>
+            <th>Accessibility</th>
+        </tr>
+        <tr>
+            <td><code>public</code></td>
+            <td>Accessible everywhere (any class/package)</td>
+        </tr>
+        <tr>
+            <td><code>protected</code></td>
+            <td>Same package + subclasses (even in other packages)</td>
+        </tr>
+        <tr>
+            <td><code>default</code></td>
+            <td>Same package only (no explicit keyword)</td>
+        </tr>
+        <tr>
+            <td><code>private</code></td>
+            <td>Same class only</td>
+        </tr>
+    </table>
+
 1) Use == for primitive types (e.g., int, char, boolean) because they compare values directly.
 2) Use .equals() for objects (e.g., String, Integer) to compare the actual content.
 3) == on objects checks if they point to the same memory location, not the content.
