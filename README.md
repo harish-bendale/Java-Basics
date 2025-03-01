@@ -32,7 +32,48 @@
  4. private -> Only within the same class.
 <p>
 
+<h3>Non-access Modifiers</h3>
+<h3>1) Classes</h3>
+<p>final , abstract</p>
+<p>
+
+ 1. final -> The class cannot be subclassed
+
+ 2. abstract -> The class cannot be instantiated and is meant to be subclassed.
+
+final vs. abstract:
+
+A class cannot be both final and abstract (contradictory purposes).
+
+final methods prevent polymorphism; abstract methods enforce it.
+<p>
+
+
+<h3>2) Methods </h3>
+<p>final, abstract, static </p>
+
+<p>
+
+ 1. final -> Method cannot be overridden in subclasses.
+
+ 2. abstract -> Method has no implementation (valid only in abstract classes/interfaces).
+
+ 3. static -> Method belongs to the class, not instances.
+<p>
+
+<h3> 3) Variables </h3>
+<p>final, abstract, static </p>
+
+<p>
+
+ 1. final -> Variable’s value cannot be changed after initialization (constant).
+
+ 2. static -> Variable belongs to the class, not instances.
+
+<p>
+
 </break>
+<p>Access methods are only permitted in abstract classes</p>
 <p>
 
  1) Use == for primitive types (e.g., int, char, boolean) because they compare values directly.
