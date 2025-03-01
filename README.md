@@ -15,6 +15,7 @@
 <p>public, default, protected, private</p>
 
 <p>
+
  1. public -> Accessible everywhere.
 
  2. protected -> Same package + subclasses (even in other packages).
