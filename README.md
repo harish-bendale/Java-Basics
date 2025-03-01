@@ -62,7 +62,7 @@ final methods prevent polymorphism; abstract methods enforce it.
 <p>
 
 <h3> 3) Variables </h3>
-<p>final, abstract, static </p>
+<p>final, static </p>
 
 <p>
 

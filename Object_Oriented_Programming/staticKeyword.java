@@ -3,6 +3,7 @@ package Object_Oriented_Programming;
 // (variable, method, or block) belongs to the class 
 // rather than to any specific instance of the class.
 
+// Classes can not be static
 class student1 {
     static String schoolName;
     int rollNo;
