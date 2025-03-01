@@ -73,7 +73,7 @@ final methods prevent polymorphism; abstract methods enforce it.
 <p>
 
 </break>
-<p>Access methods are only permitted in abstract classes</p>
+<p>Abstract methods are only permitted in abstract classes</p>
 <p>
 
  1) Use == for primitive types (e.g., int, char, boolean) because they compare values directly.
