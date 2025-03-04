@@ -103,3 +103,5 @@ Throwable
 2) Unchecked Exceptions: Do not need to be handled explicitly.
 
 3) Errors: Typically not caught or handled by applications.
+
+<img src = "Screenshot 2025-03-04 at 5.39.14 PM.png"></img>
