@@ -110,3 +110,30 @@ Throwable
 <p>
 Java doesn’t allow multiple inheritance for classes, so the classic diamond problem isn’t possible. However, with interfaces and default methods (introduced in Java 8), a similar ambiguity can arise. For example, if a class implements two interfaces that inherit from a common interface and override its default method, the compiler forces the class to resolve the conflict by overriding the method explicitly. This ensures clarity and avoids runtime ambiguity."
 </p>
+
+<p>
+Problem :
+
+interface Grandparent {
+    default void method() { System.out.println("Grandparent"); }
+}
+interface Parent1 extends Grandparent {
+    default void method() { System.out.println("Parent1"); }
+}
+interface Parent2 extends Grandparent {
+    default void method() { System.out.println("Parent2"); }
+}
+class Child implements Parent1, Parent2 { 
+    // COMPILER ERROR: Ambiguous method inheritance!
+}
+
+
+Resolution :
+class Child implements Parent1, Parent2 {
+    @Override
+    public void method() {
+        // Explicitly choose one implementation
+        Parent1.super.method(); // Calls Parent1's method
+    }
+}
+</p>
