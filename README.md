@@ -108,5 +108,5 @@ Throwable
 
 <h3> Diamond Problem </h3>
 <p>
-ava doesn’t allow multiple inheritance for classes, so the classic diamond problem isn’t possible. However, with interfaces and default methods (introduced in Java 8), a similar ambiguity can arise. For example, if a class implements two interfaces that inherit from a common interface and override its default method, the compiler forces the class to resolve the conflict by overriding the method explicitly. This ensures clarity and avoids runtime ambiguity."
+Java doesn’t allow multiple inheritance for classes, so the classic diamond problem isn’t possible. However, with interfaces and default methods (introduced in Java 8), a similar ambiguity can arise. For example, if a class implements two interfaces that inherit from a common interface and override its default method, the compiler forces the class to resolve the conflict by overriding the method explicitly. This ensures clarity and avoids runtime ambiguity."
 </p>
