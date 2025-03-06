@@ -114,7 +114,7 @@ Java doesn’t allow multiple inheritance for classes, so the classic diamond pr
 <p>
 Problem :
 
-interface Grandparent { </br>
+interface Grandparent { <br>
     default void method() { System.out.println("Grandparent"); }
 }
 interface Parent1 extends Grandparent {
