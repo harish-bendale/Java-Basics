@@ -1,4 +1,4 @@
-import java.util.*;
+package Object_Oriented_Programming.Thread;
 class A extends Thread
 {
 	public void run()
@@ -30,7 +30,7 @@ class B extends Thread
 		}
 	}
 }
-public class Test {
+public class Thread_Priority_and_Sleep {
     public static void main(String[] args) {
         A obj1=new A();
     	B obj2=new B();
@@ -48,5 +48,6 @@ public class Test {
 			e.printStackTrace();
 		}
     	obj2.start();
+    
     }
 }
