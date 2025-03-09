@@ -115,25 +115,26 @@ Java doesn’t allow multiple inheritance for classes, so the classic diamond pr
 Problem :
 
 interface Grandparent { <br>
-    default void method() { System.out.println("Grandparent"); }
-}
-interface Parent1 extends Grandparent {
-    default void method() { System.out.println("Parent1"); }
-}
-interface Parent2 extends Grandparent {
-    default void method() { System.out.println("Parent2"); }
-}
-class Child implements Parent1, Parent2 { 
-    // COMPILER ERROR: Ambiguous method inheritance!
-}
+    default void method() { System.out.println("Grandparent"); <br>
+    } <br>
+}<br>
+interface Parent1 extends Grandparent {<br>
+    default void method() { System.out.println("Parent1"); }<br>
+}<br>
+interface Parent2 extends Grandparent {<br>
+    default void method() { System.out.println("Parent2"); }<br>
+}<br>
+class Child implements Parent1, Parent2 { <br>
+    // COMPILER ERROR: Ambiguous method inheritance!<br>
+}<br>
 
 
-Resolution :
-class Child implements Parent1, Parent2 {
-    @Override
-    public void method() {
-        // Explicitly choose one implementation
-        Parent1.super.method(); // Calls Parent1's method
-    }
-}
+Resolution :<br>
+class Child implements Parent1, Parent2 {<br>
+    @Override<br>
+    public void method() {<br>
+        // Explicitly choose one implementation<br>
+        Parent1.super.method(); // Calls Parent1's method<br>
+    }<br>
+}<br>
 </p>
