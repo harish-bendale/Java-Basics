@@ -1,52 +1,30 @@
-import java.util.*;
-class A extends Thread
-{
-	public void run()
-	{
-		for(int i=1;i<=100;i++)
-		{
-			System.out.println("Hi");
-			try {
-				Thread.sleep(10);
-			}catch(InterruptedException e) {
-				e.printStackTrace();
-			}
-		}
+interface A {
+	default void method() {
+		System.out.println("Inside A");
+	}
+}
+interface B extends A{
+	@Override
+	default void method() {
+		System.out.println("Inside B");
 	}
 }
 
-class B extends Thread
-{
-	public void run()
-	{
-		for(int i=1;i<=100;i++)
-		{
-			System.out.println("Hello");
-			try {
-				Thread.sleep(10);
-			}catch(InterruptedException e) {
-				e.printStackTrace();
-			}
-		}
+interface C extends A{
+	@Override
+	default void method() {
+		System.out.println("Inside C");
+	}
+}
+class Child implements C, B {
+	@Override
+	public void method() {
+		B.super.method();
 	}
 }
 public class Test {
     public static void main(String[] args) {
-        A obj1=new A();
-    	B obj2=new B();
-    	
-//    	obj1.show();
-//    	obj2.show();
-    	
-    	obj2.setPriority(Thread.MAX_PRIORITY);
-    	System.out.println(obj1.getPriority());
-    	
-    	obj1.start();
-    	try {
-			Thread.sleep(2);
-		}catch(InterruptedException e) {
-			e.printStackTrace();
-		}
-    	obj2.start();
+		Child c = new Child();
+		c.method();
     }
 }

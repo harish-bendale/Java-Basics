@@ -111,3 +111,10 @@ Throwable
 Java doesn’t allow multiple inheritance for classes, so the classic diamond problem isn’t possible. However, with interfaces and default methods (introduced in Java 8), a similar ambiguity can arise. For example, if a class implements two interfaces that inherit from a common interface and override its default method, the compiler forces the class to resolve the conflict by overriding the method explicitly. This ensures clarity and avoids runtime ambiguity."
 </p>
 
+<h3>Java Collection Framework</h3>
+<p>
+
+The Java Collections Framework (JCF) is a set of classes and interfaces in Java that provide efficient data structures to store, manipulate, and process data. It is part of java.util package and provides dynamic, resizable, and efficient alternatives to traditional arrays.
+
+</p>
+<img src="Screenshot 2025-03-11 at 8.57.19 AM.png"></img>
