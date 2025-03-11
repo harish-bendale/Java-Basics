@@ -117,4 +117,12 @@ Java doesn’t allow multiple inheritance for classes, so the classic diamond pr
 The Java Collections Framework (JCF) is a set of classes and interfaces in Java that provide efficient data structures to store, manipulate, and process data. It is part of java.util package and provides dynamic, resizable, and efficient alternatives to traditional arrays.
 
 </p>
+
+<p>
+
+Interface -> List, Set, Queue, Map
+Implementations -> ArrayList, LinkedList, HashSet , etc.
+
+</p>
+
 <img src="Screenshot 2025-03-11 at 8.57.19 AM.png"></img>
