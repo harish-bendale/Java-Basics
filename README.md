@@ -82,21 +82,7 @@ final methods prevent polymorphism; abstract methods enforce it.
 
 </p>
 Exception Hierarchy
-Throwable
-├── Error
-│   ├── OutOfMemoryError
-│   ├── StackOverflowError
-│   └── LinkageError
-└── Exception
-    ├── Checked Exceptions
-    │   ├── IOException
-    │   ├── SQLException
-    │   └── ClassNotFoundException
-    └── Unchecked Exceptions (RuntimeException)
-        ├── NullPointerException
-        ├── ArrayIndexOutOfBoundsException
-        ├── ArithmeticException
-        └── IllegalArgumentException
+<img src="Screenshot 2025-03-12 at 11.39.30 AM.png"></img>
 
 1) Checked Exceptions: Must be handled explicitly (either caught or declared).
 
